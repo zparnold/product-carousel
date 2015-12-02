@@ -1,9 +1,9 @@
 {
-  "name": "horizon-swiper",
+  "name": "product-carousel",
   "version": "1.1.1",
-  "description": "A light free swiper that works with your native browser scrolling.",
-  "author": "Sebastian Sauer (http://www.sebsauer.de)",
-  "repository": "https://github.com/sebsauer90/horizon-swiper",
+  "description": "A simple jQuery product carousel for Bethel Media.",
+  "author": "Zachary Arnold, and Sebastian Sauer",
+  "repository": "https://github.com/zparnold/product-carousel/",
   "license": "MIT",
   "dependencies": {
     "grunt": "^0.4.5",

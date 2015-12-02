@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271223bd-667e-48d3-bea1-4930adbaffff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/horizon-swiper.js" afterPath="$PROJECT_DIR$/src/horizon-swiper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/horizon-swiper.scss" afterPath="$PROJECT_DIR$/src/horizon-swiper.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/horizon-theme.scss" afterPath="$PROJECT_DIR$/src/horizon-theme.scss" />
     </list>
     <ignored path="product-carousel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="horizon-swiper.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="horizon-swiper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/horizon-swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.051107325">
+            <state vertical-scroll-proportion="0.5555556">
               <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -49,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.29032257">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -102,43 +107,12 @@
         <option value="$PROJECT_DIR$/src/horizon-theme.scss" />
         <option value="$PROJECT_DIR$/src/horizon-swiper.js" />
         <option value="$PROJECT_DIR$/src/horizon-swiper.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true">
-    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
-      <alias-task name="css" info="Alias for &quot;sass&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
-        <dependency value="sass" />
-        <dependency value="autoprefixer" />
-        <dependency value="cssmin" />
-      </alias-task>
-      <alias-task name="default" info="Alias for &quot;sass&quot;, &quot;autoprefixer&quot;, &quot;cssmin&quot;, &quot;babel&quot;, &quot;uglify&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
-        <dependency value="sass" />
-        <dependency value="autoprefixer" />
-        <dependency value="cssmin" />
-        <dependency value="babel" />
-        <dependency value="uglify" />
-      </alias-task>
-      <alias-task name="js" info="Alias for &quot;babel&quot;, &quot;uglify&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
-        <dependency value="babel" />
-        <dependency value="uglify" />
-      </alias-task>
-      <core-task name="autoprefixer" info="Prefix CSS files." file-path="$PROJECT_DIR$/node_modules/grunt-autoprefixer/tasks/autoprefixer.js" multi="true">
-        <target value="your_target" />
-      </core-task>
-      <core-task name="babel" info="Transpile ES6 to ES5" file-path="$PROJECT_DIR$/node_modules/grunt-babel/tasks/babel.js" multi="true">
-        <target value="dist" />
-      </core-task>
-      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true">
-        <target value="target" />
-      </core-task>
-      <core-task name="sass" info="Compile Sass to CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-sass/tasks/sass.js" multi="true">
-        <target value="main" />
-      </core-task>
-      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true">
-        <target value="my_target" />
-      </core-task>
-    </gruntfile>
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
   </component>
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -147,12 +121,6 @@
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
-      <selected-paths>
-        <path>
-          <id value="$PROJECT_DIR$/Gruntfile.js" />
-          <id value="default" />
-        </path>
-      </selected-paths>
     </layout>
   </component>
   <component name="ProjectFrameBounds">
@@ -315,7 +283,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449078017446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactors horizon-swiper to product carousel syntax">
+      <created>1449081209917</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1449081209917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -328,7 +302,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -346,7 +320,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adds some good stuff from horizon swiper&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds some good stuff from horizon swiper&#10;" />
+    <MESSAGE value="Refactors horizon-swiper to product carousel syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactors horizon-swiper to product carousel syntax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -385,14 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
@@ -411,8 +378,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/horizon-swiper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051107325">
+        <state vertical-scroll-proportion="0.5555556">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29032257">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
       </provider>

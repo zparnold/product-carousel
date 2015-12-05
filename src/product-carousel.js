@@ -27,11 +27,11 @@
   /**
    * Global variables
    */
-  var pluginName = 'horizonSwiper';
+  var pluginName = 'productCarousel';
   var settings = {
 
     // Default settings
-    item: '.horizon-item',
+    item: '.product-item',
     showItems: 'auto',
     dots: false,
     numberedDots: false,
@@ -54,11 +54,11 @@
     $window: $(window),
     $document: $(document),
 
-    innerClass: 'horizon-inner',
-    outerClass: 'horizon-outer',
-    dotContainer: '<nav class="horizon-dots"></nav>',
-    arrowPrev: ['<button class="horizon-prev">', '</button>'],
-    arrowNext: ['<button class="horizon-next">', '</button>'],
+    innerClass: 'product-inner',
+    outerClass: 'product-outer',
+    dotContainer: '<nav class="nav-dots"></nav>',
+    arrowPrev: ['<button class="nav-prev">', '</button>'],
+    arrowNext: ['<button class="nav-next">', '</button>'],
     showArrowsClass: 'arrows',
     showDotsClass: 'dots',
     initializedClass: 'initialized',
@@ -70,7 +70,7 @@
   /**
    * Plugin class
    */
-  var HorizonSwiper = (function () {
+  var ProductCarousel = (function () {
 
     /**
      * Constructor
@@ -214,7 +214,7 @@
       }
 
       for (var i = 0; i < that.$items.length; ++i) {
-        $(that.$items[i]).attr('data-horizon-index', i);
+        $(that.$items[i]).attr('data-product-index', i);
       }
     };
 
@@ -231,7 +231,7 @@
 
         for (var i = 0; i < that.$items.length; ++i) {
           var dotName = that.settings.numberedDots ? i : '';
-          var $newDot = $('<button class="horizon-dot" data-horizon-target="' + i + '">' + dotName + '</button>');
+          var $newDot = $('<button class="nav-dot" data-product-target="' + i + '">' + dotName + '</button>');
           that.$dots.append($newDot);
         }
 
@@ -239,8 +239,8 @@
 
         that.$dots.find('button').on('click', function (e) {
           e.preventDefault();
-          var horizonTarget = $(this).attr('data-horizon-target');
-          that._dotScroll(horizonTarget);
+          var productTarget = $(this).attr('data-product-target');
+          that._dotScroll(productTarget);
         });
       }
     };
@@ -248,12 +248,12 @@
     /**
      * Scroll to a dot target
      *
-     * @param horizonTarget
+     * @param productTarget
      * @private
      */
-    Plugin.prototype._dotScroll = function (horizonTarget) {
+    Plugin.prototype._dotScroll = function (productTarget) {
       var that = this;
-      var $target = that.$dots.find('[data-horizon-index="' + horizonTarget + '"]');
+      var $target = that.$dots.find('[data-product-index="' + productTarget + '"]');
       var targetWidth = $target.outerWidth(true);
       var leftOffset = 0;
 
@@ -261,7 +261,7 @@
       that.settings.onSlideStart();
 
       for (var i = 0; i < that.$items.length; ++i) {
-        if (i < horizonTarget) {
+        if (i < productTarget) {
           leftOffset += $(that.$items[i]).outerWidth(true);
         }
       }
@@ -272,9 +272,9 @@
         that._checkPosition();
         that.settings.onSlideEnd();
 
-        if (horizonTarget === that.$items.length) {
+        if (productTarget === that.$items.length) {
           that.settings.onEnd();
-        } else if (horizonTarget === 0) {
+        } else if (productTarget === 0) {
           that.settings.onStart();
         }
 
@@ -509,9 +509,9 @@
         itemEnd += itemWidth;
 
         if (itemStart + itemWidth / 2 >= range[0] && itemEnd - itemWidth / 2 <= range[1]) {
-          that.$dots.find('[data-horizon-target="' + i + '"]').addClass('active');
+          that.$dots.find('[data-product-target="' + i + '"]').addClass('active');
         } else {
-          that.$dots.find('[data-horizon-target="' + i + '"]').removeClass('active');
+          that.$dots.find('[data-product-target="' + i + '"]').removeClass('active');
         }
 
         itemStart += itemWidth;
@@ -553,7 +553,7 @@
   $.fn[pluginName] = function (options) {
     this.each(function () {
       if (!$.data(this, pluginName)) {
-        $.data(this, pluginName, new HorizonSwiper(this, options));
+        $.data(this, pluginName, new ProductCarousel(this, options));
       }
     });
 

@@ -8,7 +8,6 @@ module.exports = function (grunt) {
       main: {
         options: {
           style: 'nested',
-          sourcemap: 'none',
           noCache: true
         },
         files: [
@@ -27,8 +26,8 @@ module.exports = function (grunt) {
     autoprefixer: {
       your_target: {
         files: {
-          'dist/horizon-swiper.min.css': ['dist/product-carousel.min.css'],
-          'dist/horizon-theme.min.css': ['dist/product-carousel-theme.min.css']
+          'dist/product-carousel.min.css': ['dist/product-carousel.min.css'],
+          'dist/product-carousel-theme.min.css': ['dist/product-carousel-theme.min.css']
         }
       },
     },
@@ -41,8 +40,8 @@ module.exports = function (grunt) {
       },
       target: {
         files: {
-          'dist/horizon-swiper.min.css': ['dist/product-carousel.min.css'],
-          'dist/horizon-theme.min.css': ['dist/product-carousel-theme.min.css']
+          'dist/product-carousel.min.css': ['dist/product-carousel.min.css'],
+          'dist/product-carousel-theme.min.css': ['dist/product-carousel-theme.min.css']
         }
       }
     },
@@ -72,7 +71,7 @@ module.exports = function (grunt) {
       },
       my_target: {
         files: {
-          'dist/horizon-swiper.min.js': ['src/product-carousel.js']
+          'dist/product-carousel.min.js': ['src/product-carousel.js']
         }
       }
     }

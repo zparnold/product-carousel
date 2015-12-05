@@ -1,6 +1,8 @@
 /*
  * Horizon Swiper
  * Version 1.1.1
+ * Domain ( http://horizon-swiper.sebsauer.de/ )
+ * Copyright 2015 Sebastian Sauer ( http://www.sebsauer.de/ )
  * Licensed under MIT ( https://github.com/sebsauer90/horizon-swiper/blob/master/LICENSE )
  */
 
@@ -25,11 +27,11 @@
   /**
    * Global variables
    */
-  var pluginName = 'productCarousel';
+  var pluginName = 'horizonSwiper';
   var settings = {
 
     // Default settings
-    item: '.product-item',
+    item: '.horizon-item',
     showItems: 'auto',
     dots: false,
     numberedDots: false,
@@ -52,11 +54,11 @@
     $window: $(window),
     $document: $(document),
 
-    innerClass: 'product-inner',
-    outerClass: 'product-outer',
-    dotContainer: '<nav class="nav-dots"></nav>',
-    arrowPrev: ['<button class="nav-prev">', '</button>'],
-    arrowNext: ['<button class="nav-next">', '</button>'],
+    innerClass: 'horizon-inner',
+    outerClass: 'horizon-outer',
+    dotContainer: '<nav class="horizon-dots"></nav>',
+    arrowPrev: ['<button class="horizon-prev">', '</button>'],
+    arrowNext: ['<button class="horizon-next">', '</button>'],
     showArrowsClass: 'arrows',
     showDotsClass: 'dots',
     initializedClass: 'initialized',
@@ -68,7 +70,7 @@
   /**
    * Plugin class
    */
-  var ProductCarousel = (function () {
+  var HorizonSwiper = (function () {
 
     /**
      * Constructor
@@ -212,7 +214,7 @@
       }
 
       for (var i = 0; i < that.$items.length; ++i) {
-        $(that.$items[i]).attr('data-product-index', i);
+        $(that.$items[i]).attr('data-horizon-index', i);
       }
     };
 
@@ -229,7 +231,7 @@
 
         for (var i = 0; i < that.$items.length; ++i) {
           var dotName = that.settings.numberedDots ? i : '';
-          var $newDot = $('<button class="nav-dot" data-horizon-target="' + i + '">' + dotName + '</button>');
+          var $newDot = $('<button class="horizon-dot" data-horizon-target="' + i + '">' + dotName + '</button>');
           that.$dots.append($newDot);
         }
 
@@ -237,8 +239,8 @@
 
         that.$dots.find('button').on('click', function (e) {
           e.preventDefault();
-          var productTarget = $(this).attr('data-product-target');
-          that._dotScroll(productTarget);
+          var horizonTarget = $(this).attr('data-horizon-target');
+          that._dotScroll(horizonTarget);
         });
       }
     };
@@ -246,12 +248,12 @@
     /**
      * Scroll to a dot target
      *
-     * @param productTarget
+     * @param horizonTarget
      * @private
      */
-    Plugin.prototype._dotScroll = function (productTarget) {
+    Plugin.prototype._dotScroll = function (horizonTarget) {
       var that = this;
-      var $target = that.$dots.find('[data-product-index="' + productTarget + '"]');
+      var $target = that.$dots.find('[data-horizon-index="' + horizonTarget + '"]');
       var targetWidth = $target.outerWidth(true);
       var leftOffset = 0;
 
@@ -259,7 +261,7 @@
       that.settings.onSlideStart();
 
       for (var i = 0; i < that.$items.length; ++i) {
-        if (i < productTarget) {
+        if (i < horizonTarget) {
           leftOffset += $(that.$items[i]).outerWidth(true);
         }
       }
@@ -270,9 +272,9 @@
         that._checkPosition();
         that.settings.onSlideEnd();
 
-        if (productTarget === that.$items.length) {
+        if (horizonTarget === that.$items.length) {
           that.settings.onEnd();
-        } else if (productTarget === 0) {
+        } else if (horizonTarget === 0) {
           that.settings.onStart();
         }
 
@@ -507,9 +509,9 @@
         itemEnd += itemWidth;
 
         if (itemStart + itemWidth / 2 >= range[0] && itemEnd - itemWidth / 2 <= range[1]) {
-          that.$dots.find('[data-product-target="' + i + '"]').addClass('active');
+          that.$dots.find('[data-horizon-target="' + i + '"]').addClass('active');
         } else {
-          that.$dots.find('[data-product-target="' + i + '"]').removeClass('active');
+          that.$dots.find('[data-horizon-target="' + i + '"]').removeClass('active');
         }
 
         itemStart += itemWidth;
@@ -551,7 +553,7 @@
   $.fn[pluginName] = function (options) {
     this.each(function () {
       if (!$.data(this, pluginName)) {
-        $.data(this, pluginName, new ProductCarousel(this, options));
+        $.data(this, pluginName, new HorizonSwiper(this, options));
       }
     });
 

@@ -5,14 +5,14 @@ This carousel is a lightweight effective way to display product items attractive
 
 ##CI/CDN Info
 Here's how the build is currently: ![alt tag](https://travis-ci.org/zparnold/product-carousel.svg)
-Minified js and css available at the following urls
+js and css available at the following urls
 
 ###CSS:
-* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel.min.css
-* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel-theme.min.css
+* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel.css
+* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel-theme.css
 
 ###JS:
-* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel.min.js
+* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel.js
 
 ##How-To and Documentation
 ### HTML

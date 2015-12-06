@@ -14,3 +14,5 @@ deploy:
   bucket: "bethelmedia"
   skip_cleanup: true
   local_dir: dsit
+notifications:
+  slack: zacharnold:1q8bdkXpx44bogOGyVM5gokt

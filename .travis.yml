@@ -13,6 +13,6 @@ deploy:
   secret_access_key: "8uJgeAAZ1PjjHnMQIbNj1lpiPqR5eXi2swrABVct"
   bucket: "bethelmedia"
   skip_cleanup: true
-  local_dir: dist
+  local_dir: src
 notifications:
   slack: zacharnold:1q8bdkXpx44bogOGyVM5gokt

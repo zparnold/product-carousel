@@ -219,7 +219,7 @@
       that.$outer = that.$element.find('.' + defaults.outerClass);
 
       if (that.settings.maxItems !== 'auto' && that.settings.maxItems === parseInt(that.settings.maxItems, 10)) {
-        itemWidth = 100 / that.settings.maxItems;
+        itemWidth = 100 / (that.settings.maxItems + .5);
         that.$items.css({ width: itemWidth + '%' });
       }
 

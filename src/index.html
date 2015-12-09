@@ -221,7 +221,12 @@
     </div>
 </div>
 <script>
-    $('.product-carousel').productCarousel();
+    var opts={
+        maxItems : 'auto',
+        mouseDrag : true,
+        animationSpeed : 1000
+    }
+    $('.product-carousel').productCarousel(opts);
 </script>
 </body>
 </html>

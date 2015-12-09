@@ -32,10 +32,10 @@
 
     // Default settings
     item: '.product-item',
-    showItems: 'auto',
+    maxItems: 'auto',
     dots: false,
     numberedDots: false,
-    arrows: true,
+    displayArrows: true,
     arrowPrevText: '',
     arrowNextText: '',
     animationSpeed: 500,
@@ -59,7 +59,7 @@
     dotContainer: '<nav class="nav-dots"></nav>',
     arrowPrev: ['<button class="nav-prev">', '</button>'],
     arrowNext: ['<button class="nav-next">', '</button>'],
-    showArrowsClass: 'arrows',
+    showArrowsClass: 'displayArrows',
     showDotsClass: 'dots',
     initializedClass: 'initialized',
     mouseDragClass: 'mouse-drag',
@@ -162,7 +162,7 @@
       if ( that.viewportSize < that.innerContainerWidth ) {
         that.$element.addClass( defaults.initializedClass );
 
-        if ( that.settings.arrows ) {
+        if ( that.settings.displayArrows ) {
           that.$element.addClass( defaults.showArrowsClass );
         }
 
@@ -213,9 +213,9 @@
       that.$inner = that.$element.find( '.' + defaults.innerClass );
       that.$outer = that.$element.find( '.' + defaults.outerClass );
 
-      if ( that.settings.showItems !== 'auto' &&
-           that.settings.showItems === parseInt( that.settings.showItems, 10 ) ) {
-        itemWidth = ( 100 / that.settings.showItems );
+      if ( that.settings.maxItems !== 'auto' &&
+           that.settings.maxItems === parseInt( that.settings.maxItems, 10 ) ) {
+        itemWidth = ( 100 / that.settings.maxItems );
         that.$items.css( { width: itemWidth + '%' } );
       }
 
@@ -292,14 +292,14 @@
 
 
     /**
-     * Inlude navigation arrows to the DOM and bind click events
+     * Inlude navigation displayArrows to the DOM and bind click events
      *
      * @private
      */
     Plugin.prototype._addArrows = function () {
       var that = this;
 
-      if ( that.settings.arrows === true ) {
+      if ( that.settings.displayArrows === true ) {
         that.$arrowPrev = $( defaults.arrowPrev[ 0 ] + that.settings.arrowPrevText + defaults.arrowPrev[ 1 ] );
         that.$arrowNext = $( defaults.arrowNext[ 0 ] + that.settings.arrowNextText + defaults.arrowNext[ 1 ] );
         that.$arrowNext.insertAfter( that.$outer );
@@ -504,7 +504,7 @@
       var that = this;
       var innerOffset = that.$inner.scrollLeft();
 
-      that.settings.arrows && that._checkArrowState( innerOffset );
+      that.settings.displayArrows && that._checkArrowState( innerOffset );
       that.settings.dots && that._checkActiveDots( innerOffset );
     }
 

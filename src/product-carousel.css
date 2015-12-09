@@ -41,7 +41,10 @@
   .product-carousel .product-item {
     display: inline-block;
     position: relative;
-    white-space: nowrap; }
+    white-space: nowrap;
+    border-style: solid;
+    border-color: red;
+    border-width: thick; }
   .product-carousel .nav-dots {
     display: none;
     text-align: center; }
@@ -58,3 +61,5 @@
     display: block; }
   .product-carousel.first-item .nav-prev, .product-carousel.last-item .nav-next {
     opacity: 0.2; }
+
+/*# sourceMappingURL=product-carousel.css.map */

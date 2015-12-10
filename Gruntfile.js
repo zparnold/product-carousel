@@ -65,11 +65,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-babel');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   /* Tasks  */
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'babel', 'uglify']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'uglify']);
   grunt.registerTask('css', ['sass', 'autoprefixer', 'cssmin']);
   grunt.registerTask('js', ['babel', 'uglify']);
 

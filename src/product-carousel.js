@@ -147,6 +147,7 @@
       that.maxHeight = 0;
       that.innerContainerWidth = 0;
 
+      //linear search to find highest item
       for (var i = 0; i < that.$items.length; ++i) {
         var $item = $(that.$items[i]);
         var height = $item.outerHeight(true);
@@ -162,6 +163,7 @@
       that.viewportSize = that.$inner.width();
       that.$outer.css({ 'max-height': that.maxHeight + 'px' });
 
+      //
       if (that.viewportSize < that.innerContainerWidth) {
         that.$element.addClass(defaults.initializedClass);
 

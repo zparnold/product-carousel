@@ -25,7 +25,7 @@
   .product-carousel button:focus {
     outline: none; }
   .product-carousel.mouse-drag, .product-carousel.mouse-drag * {
-    -webkit-user-select: none;
+    -webkit-user-select: ;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; }
@@ -38,6 +38,9 @@
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch; }
+  .product-carousel .scrollable {
+    width: 100%;
+    overflow: auto; }
   .product-carousel .product-item {
     display: inline-block;
     position: relative;

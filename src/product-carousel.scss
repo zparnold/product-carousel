@@ -50,6 +50,11 @@
     -webkit-overflow-scrolling: touch;
   }
 
+  .scrollable{
+    width: 100%;
+    overflow: auto;
+  }
+
 
   /* Items
   /* -------------------------- */

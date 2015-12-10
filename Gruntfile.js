@@ -46,24 +46,6 @@ module.exports = function (grunt) {
       }
     },
 
-    /* Babel */
-    babel: {
-      options: {
-        sourceMap: false
-      },
-      dist: {
-        files: [
-          {
-            'expand': true,
-            'cwd': 'src/es6',
-            'src': ['*.js'],
-            'dest': 'src',
-            'ext': '.js'
-          }
-        ]
-      }
-    },
-
     /* JS uglify  */
     uglify: {
       options: {

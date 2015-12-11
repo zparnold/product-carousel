@@ -38,6 +38,7 @@
     arrowClass: "",
     displayScrollbar: false,
     animateTransition: true,
+    scrollBlockOrItem: false,
     rtl: false,
     dots: false,
     numberedDots: false,

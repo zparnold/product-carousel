@@ -6,7 +6,7 @@
 /* General
 /* -------------------------- */
 .product-carousel {
-  background: #e5eaef;
+  background: #fff;
   /* Dots
   /* -------------------------- */
   /* Arrows
@@ -49,3 +49,5 @@
   .product-carousel .nav-next {
     right: 5px;
     background-image: url(arrow-right.svg); }
+
+/*# sourceMappingURL=product-carousel-theme.css.map */

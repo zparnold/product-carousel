@@ -85,22 +85,20 @@ body { background: #e8e8e8; }
 
 /* Controls */
 .controls {
-    margin: 25px 0;
-    text-align: center;
+    position: absolute;
+    top: 70px;
+    bottom: 70px;
+    width: 50px;
+    opacity: 0.5;
 }
 
-.controls .nextPage {
+.nextPage {
     right: 5px;
 }
 
-.controls .prevPage{
+.prevPage{
     left: 5px;
 }
-
-/* One Item Per Frame example*/
-.oneperframe { height: 300px; line-height: 300px; }
-.oneperframe ul li { width: 1140px; }
-.oneperframe ul li.active { background: #333; }
 
 /* Crazy example */
 .crazy ul li:nth-child(2n) { width: 100px; margin: 0 4px 0 20px; }

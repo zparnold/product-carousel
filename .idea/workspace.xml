@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271223bd-667e-48d3-bea1-4930adbaffff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/horizontal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/horizontal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sly.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-carousel-theme.css" afterPath="$PROJECT_DIR$/src/product-carousel-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/product-carousel-theme.scss" afterPath="$PROJECT_DIR$/src/product-carousel-theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="product-carousel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.6">
-              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.092307694">
+              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -42,31 +48,81 @@
                 <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1449861602000" expanded="true" signature="10524:10541" placeholder="..." />
+                <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-carousel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/product-carousel.js">
+      <file leaf-file-name="modernizr.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/modernizr.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5925925">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="horizontal.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/horizontal.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.52">
+              <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/font-awesome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.52">
+              <caret line="32" column="14278" selection-start-line="32" selection-start-column="14278" selection-end-line="32" selection-end-column="14278" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalize.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/normalize.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.52">
+              <caret line="526" column="1" selection-start-line="526" selection-start-column="1" selection-end-line="526" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="horizontal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/horizontal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sly.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sly.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="18270" selection-start-line="1" selection-start-column="18270" selection-end-line="1" selection-end-column="18270" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1806#2753#0" expanded="false" />
-                <element signature="e#4332#4686#0" expanded="false" />
-                <element signature="e#4822#5508#0" expanded="false" />
-                <element signature="e#5624#6274#0" expanded="false" />
-                <element signature="e#6433#7251#0" expanded="false" />
-                <element signature="e#7411#8278#0" expanded="false" />
-                <element signature="e#8442#9073#0" expanded="false" />
-                <element signature="e#9291#10291#0" expanded="false" />
-                <element signature="e#10414#12671#0" expanded="false" />
-                <element signature="e#12800#13018#0" expanded="false" />
-                <element signature="e#13203#13849#0" expanded="false" />
-                <element signature="e#14030#14826#0" expanded="false" />
+                <element signature="e#18336#18375#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/plugins.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="479" selection-start-line="18" selection-start-column="479" selection-end-line="18" selection-end-column="479" />
+              <folding>
+                <element signature="e#5342#5381#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,18 +131,18 @@
       <file leaf-file-name="product-carousel.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/product-carousel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="18.24">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-carousel-theme.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product-carousel-theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/product-carousel-theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4923077">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state vertical-scroll-proportion="-9.88">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -98,6 +154,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -123,9 +181,16 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/src/product-carousel.scss" />
         <option value="$PROJECT_DIR$/src/product-carousel.css" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/product-carousel.js" />
         <option value="$PROJECT_DIR$/src/product-carousel-theme.scss" />
+        <option value="$PROJECT_DIR$/src/modernizr.js" />
+        <option value="$PROJECT_DIR$/src/horizontal.css" />
+        <option value="$PROJECT_DIR$/src/font-awesome.css" />
+        <option value="$PROJECT_DIR$/src/normalize.css" />
+        <option value="$PROJECT_DIR$/src/horizontal.js" />
+        <option value="$PROJECT_DIR$/src/sly.js" />
+        <option value="$PROJECT_DIR$/src/plugins.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
       </list>
     </option>
   </component>
@@ -152,7 +217,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -170,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,41 +268,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-carousel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-carousel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-carousel.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-carousel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product-carousel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -250,6 +283,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,9 +296,6 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -487,7 +518,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449864653666</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="updates theme css">
+      <created>1449864800014</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1449864800014</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,7 +533,6 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -506,6 +542,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -526,7 +563,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adds some good stuff from horizon swiper&#10;" />
     <MESSAGE value="Refactors horizon-swiper to product carousel syntax" />
     <MESSAGE value="adds a test html file to see how we did" />
     <MESSAGE value="updates refereences from horizon -&gt; product" />
@@ -551,7 +587,8 @@
     <MESSAGE value="adds options from documentation to the js file&#10;" />
     <MESSAGE value="updates options" />
     <MESSAGE value="adjust carousel options" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust carousel options" />
+    <MESSAGE value="updates theme css" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates theme css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,6 +597,65 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1806#2753#0" expanded="false" />
+            <element signature="e#4332#4686#0" expanded="false" />
+            <element signature="e#4822#5508#0" expanded="false" />
+            <element signature="e#5624#6274#0" expanded="false" />
+            <element signature="e#6433#7251#0" expanded="false" />
+            <element signature="e#7411#8278#0" expanded="false" />
+            <element signature="e#8442#9073#0" expanded="false" />
+            <element signature="e#9291#10291#0" expanded="false" />
+            <element signature="e#10414#12671#0" expanded="false" />
+            <element signature="e#12800#13018#0" expanded="false" />
+            <element signature="e#13203#13849#0" expanded="false" />
+            <element signature="e#14030#14826#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-carousel-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -576,7 +672,7 @@
             <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1449861602000" expanded="true" signature="10524:10541" placeholder="..." />
+            <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -643,7 +739,7 @@
             <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1449861602000" expanded="true" signature="10524:10541" placeholder="..." />
+            <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -710,7 +806,7 @@
             <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1449861602000" expanded="true" signature="10524:10541" placeholder="..." />
+            <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -769,7 +865,7 @@
             <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1449861602000" expanded="true" signature="10524:10541" placeholder="..." />
+            <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -879,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/product-carousel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5925925">
+        <state vertical-scroll-proportion="0.0">
           <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -899,10 +995,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.8">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product-carousel-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.88">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modernizr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="89" selection-end-line="9" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/horizontal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.52">
+          <caret line="96" column="66" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.52">
+          <caret line="32" column="14278" selection-start-line="32" selection-start-column="14278" selection-end-line="32" selection-end-column="14278" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.52">
+          <caret line="526" column="1" selection-start-line="526" selection-start-column="1" selection-end-line="526" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/horizontal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sly.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="18270" selection-start-line="1" selection-start-column="18270" selection-end-line="1" selection-end-column="18270" />
+          <folding>
+            <element signature="e#18336#18375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="479" selection-start-line="18" selection-start-column="479" selection-end-line="18" selection-end-column="479" />
+          <folding>
+            <element signature="e#5342#5381#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.6">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.092307694">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -915,32 +1095,8 @@
             <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1449861602000" expanded="true" signature="10524:10541" placeholder="..." />
+            <marker date="1450105267000" expanded="true" signature="13088:13105" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-carousel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.8">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="18.24">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product-carousel-theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4923077">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>

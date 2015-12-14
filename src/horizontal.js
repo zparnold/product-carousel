@@ -12,7 +12,7 @@ jQuery(function($){
         var $wrap   = $frame.parent();
 
         // Call Sly on frame
-        $frame.sly({
+        $frame.pc({
             horizontal: 1,
             itemNav: 'basic',
             smart: 1,
@@ -46,7 +46,7 @@ jQuery(function($){
             var item = $(this).data('item');
             // Animate a particular item to the start of the frame.
             // If no item is provided, the whole content will be animated.
-            $frame.sly('toStart', item);
+            $frame.pc('toStart', item);
         });
 
         // To Center button
@@ -54,7 +54,7 @@ jQuery(function($){
             var item = $(this).data('item');
             // Animate a particular item to the center of the frame.
             // If no item is provided, the whole content will be animated.
-            $frame.sly('toCenter', item);
+            $frame.pc('toCenter', item);
         });
 
         // To End button
@@ -62,17 +62,8 @@ jQuery(function($){
             var item = $(this).data('item');
             // Animate a particular item to the end of the frame.
             // If no item is provided, the whole content will be animated.
-            $frame.sly('toEnd', item);
+            $frame.pc('toEnd', item);
         });
 
-        // Add item
-        $wrap.find('.add').on('click', function () {
-            $frame.sly('add', '<li>' + $slidee.children().length + '</li>');
-        });
-
-        // Remove item
-        $wrap.find('.remove').on('click', function () {
-            $frame.sly('remove', -1);
-        });
     }());
 });

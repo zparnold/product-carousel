@@ -5,8 +5,8 @@
 ;(function ($, w, undefined) {
     'use strict';
 
-    var pluginName = 'sly';
-    var className  = 'Sly';
+    var pluginName = 'pc';
+    var className  = 'PC';
     var namespace  = pluginName;
 
     // Local WindowAnimationTiming interface
@@ -39,27 +39,27 @@
     // Keep track of last fired global wheel event
     var lastGlobalWheel = 0;
     $doc.on(wheelEvent, function (event) {
-        var sly = event.originalEvent[namespace];
+        var pc = event.originalEvent[namespace];
         var time = +new Date();
         // Update last global wheel time, but only when event didn't originate
-        // in Sly frame, or the origin was less than scrollHijack time ago
-        if (!sly || sly.options.scrollHijack < time - lastGlobalWheel) lastGlobalWheel = time;
+        // in PC frame, or the origin was less than scrollHijack time ago
+        if (!pc || pc.options.scrollHijack < time - lastGlobalWheel) lastGlobalWheel = time;
     });
 
     /**
-     * Sly.
+     * PC.
      *
      * @class
      *
-     * @param {Element} frame       DOM element of sly container.
+     * @param {Element} frame       DOM element of pc container.
      * @param {Object}  options     Object with options.
      * @param {Object}  callbackMap Callbacks map.
      */
-    function Sly(frame, options, callbackMap) {
-        if (!(this instanceof Sly)) return new Sly(frame, options, callbackMap);
+    function PC(frame, options, callbackMap) {
+        if (!(this instanceof PC)) return new PC(frame, options, callbackMap);
 
         // Extend options
-        var o = $.extend({}, Sly.defaults, options);
+        var o = $.extend({}, PC.defaults, options);
 
         // Private variables
         var self = this;
@@ -772,7 +772,7 @@
                 -1;
         }
         // Expose getIndex without lowering the compressibility of it,
-        // as it is used quite often throughout Sly.
+        // as it is used quite often throughout PC.
         self.getIndex = getIndex;
 
         /**
@@ -1596,7 +1596,7 @@
          * @return {Void}
          */
         function scrollHandler(event) {
-            // Mark event as originating in a Sly instance
+            // Mark event as originating in a PC instance
             event.originalEvent[namespace] = self;
             // Don't hijack global scrolling
             var time = +new Date();
@@ -1742,7 +1742,7 @@
          */
         self.destroy = function () {
             // Remove the reference to itself
-            Sly.removeInstance(frame);
+            PC.removeInstance(frame);
 
             // Unbind all events
             $scrollSource
@@ -1806,10 +1806,10 @@
             }
 
             // Disallow multiple instances on the same element
-            if (Sly.getInstance(frame)) throw new Error('There is already a Sly instance on this element');
+            if (PC.getInstance(frame)) throw new Error('There is already a PC instance on this element');
 
             // Store the reference to itself
-            Sly.storeInstance(frame, self);
+            PC.storeInstance(frame, self);
 
             // Register callbacks map
             self.on(callbackMap);
@@ -1914,15 +1914,15 @@
         };
     }
 
-    Sly.getInstance = function (element) {
+    PC.getInstance = function (element) {
         return $.data(element, namespace);
     };
 
-    Sly.storeInstance = function (element, sly) {
-        return $.data(element, namespace, sly);
+    PC.storeInstance = function (element, pc) {
+        return $.data(element, namespace, pc);
     };
 
-    Sly.removeInstance = function (element) {
+    PC.removeInstance = function (element) {
         return $.removeData(element, namespace);
     };
 
@@ -2101,7 +2101,7 @@
     }());
 
     // Expose class globally
-    w[className] = Sly;
+    w[className] = PC;
 
     // jQuery proxy
     $.fn[pluginName] = function (options, callbackMap) {
@@ -2119,11 +2119,11 @@
         // Apply to all elements
         return this.each(function (i, element) {
             // Call with prevention against multiple instantiations
-            var plugin = Sly.getInstance(element);
+            var plugin = PC.getInstance(element);
 
             if (!plugin && !method) {
                 // Create a new object if it doesn't exist yet
-                plugin = new Sly(element, options, callbackMap).init();
+                plugin = new PC(element, options, callbackMap).init();
             } else if (plugin && method) {
                 // Call method
                 if (plugin[method]) {
@@ -2134,7 +2134,7 @@
     };
 
     // Default options
-    Sly.defaults = {
+    PC.defaults = {
         slidee:     null,  // Selector, DOM element, or jQuery object with DOM element representing SLIDEE.
         horizontal: false, // Switch to horizontal mode.
 
@@ -2158,14 +2158,14 @@
         releaseSwing:  false, // Ease out on dragging swing release.
         swingSpeed:    0.2,   // Swing synchronization speed, where: 1 = instant, 0 = infinite.
         elasticBounds: false, // Stretch SLIDEE position limits when dragging past FRAME boundaries.
-        dragThreshold: 3,     // Distance in pixels before Sly recognizes dragging.
+        dragThreshold: 3,     // Distance in pixels before PC recognizes dragging.
         interactive:   null,  // Selector for special interactive elements.
 
         // Scrollbar
         scrollBar:     null,  // Selector or DOM element for scrollbar container.
         dragHandle:    false, // Whether the scrollbar handle should be draggable.
         dynamicHandle: false, // Scrollbar handle represents the ratio between hidden and visible content.
-        minHandleSize: 50,    // Minimal height or width (depends on sly direction) of a handle in pixels.
+        minHandleSize: 50,    // Minimal height or width (depends on pc direction) of a handle in pixels.
         clickBar:      false, // Enable navigation by clicking on scrollbar.
         syncSpeed:     0.5,   // Handle => SLIDEE synchronization speed, where: 1 = instant, 0 = infinite.
 

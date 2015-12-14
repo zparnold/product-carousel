@@ -19,13 +19,13 @@ jQuery(function($){
             activateOn: 'click',
             mouseDragging: 1,
             touchDragging: 1,
-            releaseSwing: 1,
-            startAt: 3,
+            releaseSwing: 0.2,
+            startAt: 0,
             scrollBar: $wrap.find('.scrollbar'),
             scrollBy: 1,
             pagesBar: $wrap.find('.pages'),
             activatePageOn: 'click',
-            speed: 300,
+            speed: 1000,
             elasticBounds: 1,
             easing: 'easeOutExpo',
             dragHandle: 1,
@@ -39,30 +39,6 @@ jQuery(function($){
             next: $wrap.find('.next'),
             prevPage: $wrap.find('.prevPage'),
             nextPage: $wrap.find('.nextPage')
-        });
-
-        // To Start button
-        $wrap.find('.toStart').on('click', function () {
-            var item = $(this).data('item');
-            // Animate a particular item to the start of the frame.
-            // If no item is provided, the whole content will be animated.
-            $frame.pc('toStart', item);
-        });
-
-        // To Center button
-        $wrap.find('.toCenter').on('click', function () {
-            var item = $(this).data('item');
-            // Animate a particular item to the center of the frame.
-            // If no item is provided, the whole content will be animated.
-            $frame.pc('toCenter', item);
-        });
-
-        // To End button
-        $wrap.find('.toEnd').on('click', function () {
-            var item = $(this).data('item');
-            // Animate a particular item to the end of the frame.
-            // If no item is provided, the whole content will be animated.
-            $frame.pc('toEnd', item);
         });
 
     }());

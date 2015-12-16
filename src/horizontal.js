@@ -11,10 +11,11 @@ jQuery(function($){
         var $slidee = $frame.children('ul').eq(0);
         var $wrap   = $frame.parent();
 
-        // Call Sly on frame
+        // Call PC on frame
         $frame.pc({
             horizontal: 1,
             itemNav: 'basic',
+            slidee: $slidee,
             smart: 1,
             activateOn: 'click',
             mouseDragging: 1,

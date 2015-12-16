@@ -2,7 +2,7 @@
  * Created by zach on 12/14/15.
  */
 
-;(function ($, w, undefined) {
+(function ($, w, undefined) {
     'use strict';
 
     var pluginName = 'pc';

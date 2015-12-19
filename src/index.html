@@ -165,7 +165,12 @@
             </div>
         </div>
         <script>
-            $("#crazy1").PCWrapper();
+            $(document).ready(function(){
+                setTimeout(function(){
+                    $("#crazy1").PCWrapper();
+                }, 1000);
+            });
+
         </script>
 
         </body>

@@ -12,15 +12,14 @@
             var defaultOpts = {
                 horizontal: 1,
                 itemNav: 'basic',
-                //slidee: $slidee,
+                slidee: $slidee,
                 smart: 1,
                 activateOn: 'click',
                 mouseDragging: 1,
                 touchDragging: 1,
                 releaseSwing: 0.2,
                 startAt: 0,
-                //scrollBar: $wrap.find('.scrollbar'),
-                //scrollBy: 1,
+                scrollBar: $wrap.find('.scrollbar'),
                 pagesBar: $wrap.find('.pages'),
                 activatePageOn: 'click',
                 speed: 1000,
@@ -70,14 +69,6 @@
                 arrowNextText: '',
                 animationSpeed: 500,
                 mouseDrag: true,
-
-                // Methods and callbacks
-                onStart: function onStart() {},
-                onEnd: function onEnd() {},
-                onSlideStart: function onSlideStart() {},
-                onSlideEnd: function onSlideEnd() {},
-                onDragStart: function onDragStart() {},
-                onDragEnd: function onDragEnd() {}
             };
         }
         return this;

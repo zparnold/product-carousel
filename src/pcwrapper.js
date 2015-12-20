@@ -50,7 +50,7 @@
             }
 
             //Set options from original docs:
-            $slidee.css("max-width",defaultOpts["maxItemWidth"]);
+            $slidee.css("max-width", defaultOpts["maxItemWidth"]);
 
             //Here we go!
             $frame.pc(defaultOpts);
@@ -120,10 +120,13 @@
             if(opts['displayArrows'] == false){
                 delete settings['nextPage'];
                 delete settings['prevPage'];
+                $wrap.find('.prevPage').css("display","none");
+                $wrap.find('.nextPage').css("display","none");
             }
             //REMOVE SCROLLBAR
             if(opts['displayScrollbar'] == false){
                 delete settings['scrollBar'];
+                $wrap.find('.scrollbar').css("display","none");
             }
             //TRANSITION ANIMATION
             if(opts['animateTransition'] == false){
@@ -140,10 +143,10 @@
             }
             //DOTS CLASS
             if(opts['dotsClass']){
-                settings['pagesBar'].addClass(opts['dotsClass']);
+                $wrap.find('.pages').addClass(opts['dotsClass']);
             }
             //RIGHT TO LEFT
-            if(opts['rtl']){
+            if(opts['rtl'] == true){
                 settings['startAt'] = $frame.width();
             }
             //SCROLL ITEMS OR BLOCK

@@ -3,7 +3,6 @@
     <title>jQuery Product Carousel Test</title>
     <meta name="viewport" content="width=device-width">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
-    <script type="text/javascript" src="product-carousel.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.css">
@@ -12,8 +11,7 @@
     <link rel="stylesheet" href="horizontal.css">
     <script src="modernizr.js"></script>
     <script src="plugins.js"></script>
-    <script src="pc.js"></script>
-    <script src="pcwrapper.js"></script>
+
 </head>
 <body>
 <div class="container">
@@ -143,13 +141,38 @@
             </div>
         </div>
     </div>
-        <script>
-            $(document).ready(function(){
-                setTimeout(function(){
-                    $("#crazy1").PCWrapper();
-                }, 1000);
-            });
 
+    <script src="pcwrapper.js"></script>
+    <script src="pc.js"></script>
+        <script>
+            var opts = {
+                maxItemWidth: 100,
+                mobileScreenSize: 240,
+                maxMobileItemWidth: 50,
+                displayArrows: false,
+                arrowClass: "shabba",
+                displayScrollbar: false,
+                animateTransition: false,
+                animationSpeed: 4000,
+                rtl: true,
+                scrollBlockOrItem: true,
+                displayDots: false,
+                dotsClass: "shabbalujiah!"
+            }
+            function doCarousel(){
+                setTimeout(function(){
+                    $("#crazy1").PCWrapper(opts);
+                }, 1000);
+            }
+
+            $(document).ready(function(){
+                doCarousel();
+            });
+            $(document).ready(function(){
+                $(window).resize(function() {
+                    doCarousel();
+                });
+            });
         </script>
 
         </body>

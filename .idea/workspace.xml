@@ -4,7 +4,6 @@
     <list default="true" id="271223bd-667e-48d3-bea1-4930adbaffff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pcwrapper.js" afterPath="$PROJECT_DIR$/src/pcwrapper.js" />
     </list>
     <ignored path="product-carousel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +49,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64">
-              <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.14">
+              <caret line="142" column="10" selection-start-line="142" selection-start-column="10" selection-end-line="142" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -507,7 +506,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450564452696</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="everything but right to left is working">
+      <created>1450655963766</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1450655963766</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -546,7 +551,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes ci to use unminified versions for debugging purposes" />
     <MESSAGE value="switches links to unminified versions" />
     <MESSAGE value="Changes sass files to the correct usage of carousel instead of swiper" />
     <MESSAGE value="upload multiple files via travis ci" />
@@ -571,7 +575,8 @@
     <MESSAGE value="Updates some css properties" />
     <MESSAGE value="Removes extra files" />
     <MESSAGE value="adds javascript options to page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds javascript options to page" />
+    <MESSAGE value="everything but right to left is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything but right to left is working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -892,8 +897,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64">
-          <caret line="164" column="22" selection-start-line="164" selection-start-column="22" selection-end-line="164" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.14">
+          <caret line="142" column="10" selection-start-line="142" selection-start-column="10" selection-end-line="142" selection-end-column="10" />
           <folding />
         </state>
       </provider>

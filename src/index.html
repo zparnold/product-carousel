@@ -141,13 +141,13 @@
             </div>
         </div>
     </div>
-
     <script src="pcwrapper.js"></script>
     <script src="pc.js"></script>
         <script>
+            //CAROUSEL OPTIONS
             var opts = {
                 maxItemWidth: 100,
-                mobileScreenSize: 240,
+                mobileScreenSize: 600,
                 maxMobileItemWidth: 50,
                 displayArrows: false,
                 arrowClass: "shabba",
@@ -165,10 +165,11 @@
                 }, 1000);
             }
 
+            //PASSING ATTEMPT TO RESIZE
             $(document).ready(function(){
+
                 doCarousel();
-            });
-            $(document).ready(function(){
+
                 $(window).resize(function() {
                     doCarousel();
                 });

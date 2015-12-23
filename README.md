@@ -8,11 +8,11 @@ Here's how the build is currently: ![alt tag](https://travis-ci.org/zparnold/pro
 js and css available at the following urls
 
 ###CSS:
-* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel.css
-* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel-theme.css
+* http://bethelmedia.s3-website-us-east-1.amazonaws.com/horizontal.css
 
 ###JS:
-* http://bethelmedia.s3-website-us-east-1.amazonaws.com/product-carousel.js
+* http://bethelmedia.s3-website-us-east-1.amazonaws.com/pc.js
+* http://bethelmedia.s3-website-us-east-1.amazonaws.com/pcwrapper.js
 
 ##How-To and Documentation
 ### HTML
@@ -26,5 +26,5 @@ js and css available at the following urls
 
 ### Javascript
 ```
-$('.product-carousel').productCarousel();
+$('.product-carousel').PCWrapper();
 ```

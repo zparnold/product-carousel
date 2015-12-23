@@ -110,6 +110,9 @@
                     if ($(window).width() < parseInt(opts['mobileScreenSize'])) {
                         $slidee.css("max-width",opts["maxMobileItemWidth"]);
                     }
+                    else{
+                        $slidee.css("max-width", "initial");
+                    }
                 }
             }
             //ARROW DISPLAY

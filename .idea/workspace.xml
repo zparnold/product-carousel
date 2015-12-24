@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="271223bd-667e-48d3-bea1-4930adbaffff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
     </list>
     <ignored path="product-carousel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +26,7 @@
       <file leaf-file-name="horizontal.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/horizontal.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.48">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
@@ -85,7 +84,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8">
+            <state vertical-scroll-proportion="0.96">
               <caret line="165" column="15" selection-start-line="146" selection-start-column="12" selection-end-line="165" selection-end-column="15" />
               <folding />
             </state>
@@ -181,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,7 +216,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -560,7 +559,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450884817790</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="adjusting some opts">
+      <created>1450930841214</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1450930841214</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -599,7 +604,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload multiple files via travis ci" />
     <MESSAGE value="whoops" />
     <MESSAGE value="adds bootstrap to the mix" />
     <MESSAGE value="adds iconic icons" />
@@ -624,7 +628,8 @@
     <MESSAGE value="everything but right to left is working" />
     <MESSAGE value="successful implementation without rtl support" />
     <MESSAGE value="success!" />
-    <option name="LAST_COMMIT_MESSAGE" value="success!" />
+    <MESSAGE value="adjusting some opts" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting some opts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -633,6 +638,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/horizontal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pcwrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#1920#66896#0" expanded="false" />
+            <element signature="e#67337#67638#0" expanded="false" />
+            <element signature="e#67890#68001#0" expanded="false" />
+            <element signature="e#68185#68308#0" expanded="false" />
+            <element signature="e#68431#68530#0" expanded="false" />
+            <element signature="e#68682#68750#0" expanded="false" />
+            <element signature="e#69002#69090#0" expanded="false" />
+            <element signature="e#69319#69391#0" expanded="false" />
+            <element signature="e#69762#70384#0" expanded="false" />
+            <element signature="e#70458#71142#0" expanded="false" />
+            <element signature="e#71194#71815#0" expanded="false" />
+            <element signature="e#71949#72904#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#5342#5381#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/horizontal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -909,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/horizontal.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.48">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
@@ -917,7 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8">
+        <state vertical-scroll-proportion="0.96">
           <caret line="165" column="15" selection-start-line="146" selection-start-column="12" selection-end-line="165" selection-end-column="15" />
           <folding />
         </state>

@@ -9,25 +9,15 @@ body { background: #e8e8e8; }
 
 /* Frame */
 .frame {
-    height: 250px;
-    line-height: 250px;
-    overflow: hidden;
+    width: 100%; height: 100%; padding: 0;
 }
-.frame ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-size: 50px;
+
+.frame .slidee {
+    margin: 0; padding: 0; height: 100%; list-style: none;
 }
-.frame ul li {
-    float: left;
-    height: 100%;
-    margin: 0 5px;
-    padding: 5px;
-    color: #ddd;
-    text-align: center;
-    cursor: pointer;
+
+.frame .slidee .crsl-item {
+    float: left; margin: 0 5px 0 0; padding: 0; width: 200px; height: 200px;
 }
 
 /* Scrollbar */

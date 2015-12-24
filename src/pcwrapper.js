@@ -4,8 +4,8 @@
     $.fn.PCWrapper = function(opts) {
 
         var $frame  = $(this);
-        //var $slidee = $frame.children('ul').eq(0);
-        var $slidee = $('.slidee');
+        var $slidee = $(".slidee");
+        var $item = $slidee.children();
         var $wrap   = $frame.parent();
 
         //let's use the default:
@@ -14,7 +14,7 @@
             var defaultOpts = {
                 horizontal: 1,
                 itemNav: 'basic',
-                //slidee: $slidee,
+                slidee: $slidee,
                 smart: 1,
                 activateOn: 'click',
                 mouseDragging: 1,
@@ -49,9 +49,6 @@
                 scrollBlockOrItem: 'block'
             }
 
-            //Set options from original docs:
-            $slidee.css("max-width", defaultOpts["maxItemWidth"]);
-
             //Here we go!
             $frame.pc(defaultOpts);
 
@@ -64,7 +61,7 @@
                 //defaults
                 horizontal: 1,
                 itemNav: 'basic',
-                //slidee: $slidee,
+                slidee: $slidee,
                 smart: 1,
                 activateOn: 'click',
                 mouseDragging: 1,
@@ -102,22 +99,23 @@
             //set all non standard options first:
             //item width
             if (opts['maxItemWidth']){
-                $slidee.css("max-width", opts["maxItemWidth"]);
+                $item.css("max-width", opts["maxItemWidth"]);
             }
             //We want to handle the case if the item width exists and mobile screen size doesn't exist
             if (opts['mobileScreenSize']){
                 if (opts['maxMobileItemWidth']){
                     if ($(window).width() < parseInt(opts['mobileScreenSize'])) {
-                        $slidee.css("max-width",opts["maxMobileItemWidth"]);
+                        $item.css("max-width",opts["maxMobileItemWidth"]);
                     }
                     else{
-                        $slidee.css("max-width", "initial");
+                        $item.css("max-width", "initial");
                     }
                 }
             }
             //ARROW DISPLAY
             if(opts['arrowClass']){
-                    $slidee.addClass(opts['arrowClass']);
+                $wrap.find('.prevPage').addClass(opts['arrowClass']);
+                $wrap.find('.nextPage').addClass(opts['arrowClass']);
             }
             //REMOVE ARROWS
             if(opts['displayArrows'] == false){
